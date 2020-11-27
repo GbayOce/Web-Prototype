@@ -1,0 +1,257 @@
+.heading-container {
+    max-width:100%;
+    position:relative;
+    background-color:grey;
+    background-image:url(https://cdn.discordapp.com/attachments/770923381641969694/780643778988867594/unknown.png);
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    text-align:left;
+    height:200px;
+    
+}
+.heading-container h1 {
+    font-size:40px;
+    font-family:sans-serif;
+    color:forestgreen;
+    padding-top:70px;
+    padding-left:160px;
+}
+@media only screen and (max-width: 700px) {
+    .heading-container h1 {
+        font-size:30px;
+    }
+}
+
+#logo{
+    max-height:120px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-left:30px;
+    margin-bottom:40px;
+    cursor:pointer;
+    
+    
+}
+.navbar {
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding-right:2%;
+    white-space:nowrap;
+}
+.navbar a{
+   padding:14px 10px;
+    text-decoration:none;
+    font-size: 20px;
+    font-family: "Lucida Console", Courier, monospace;
+    display:inline-block;
+    color:white;
+    margin-right:4px;
+   
+}
+
+#navdonate {
+    font-size:22px;
+    border: white solid 3px;
+}
+
+.navbar a:hover{
+   color:purple;
+   background-color:white;
+}
+
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://cdn.discordapp.com/attachments/770923381641969694/780636005652234240/1_0.png");
+    max-width:100%;
+  width:100%;
+    min-height:200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-align:center;
+}
+   
+.spacer{
+    height:95px
+}
+.button {
+  background-color: #4CAF50;  
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+    margin-left:20px;
+    font-family:sans-serif;
+}
+
+.button:hover {
+    cursor:pointer;
+    color:#4CAF50;
+    background-color:white;
+    
+}
+.small-spacer{
+    height:20px;
+}
+
+.one-line{
+    text-align:center;
+    margin:auto;
+    max-width:960px;
+}
+
+h2 {
+    font-family:cursive;
+    font-size:35px;
+}
+
+.item-container{
+    margin:auto;
+    max-width:960px;
+    text-align:center;
+}
+
+.item img{
+    max-width:310px;
+}
+
+.item {
+    display:inline-block;
+    text-align:center;
+    max-width:320px;
+}
+
+.grouplink{
+    color:darkgreen;
+}
+
+span {
+    display:block;
+    max-width:310px;
+}
+
+.item-container2{
+    margin:auto;
+    max-width:960px;
+    text-align:center;
+}
+
+.item2 {
+    display:inline-block;
+    text-align:center;
+    max-width:340px;
+}
+
+.item2 img{
+    max-width:330px;
+    padding-right:20px;
+    
+}
+
+body {
+    background-color:white;
+}
+
+.bottombar { 
+    text-align:center;
+    background-color:lightgrey;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+.pagebottom {
+    width:100%;
+    background-color:dimgrey;
+    text-align:center;
+    font-family:sans-serif;
+    color:white;
+    padding-bottom:10px;
+    padding-top:25px;
+}
+
+.pagebottom p{
+    padding-right:20%;
+    padding-left:20%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+    background: pink;
+    color:white;
+}
+
+.fa-youtube {
+    background:red;
+    color:white;
+}
+
+h4 {
+    font-size:20px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.bottombar input{
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+}
+
+.twocolumn {
+    margin:auto;
+    max-width:960px;
+    text-align:center;
+    
+}
+
+.twocolumn:after {
+     content: "";
+  display: table;
+  clear: both;
+}
+.column {
+    float: left;
+  width: 50%;
+}
+
+.column input {
+    padding:12px 20px;
+}
+.column label{
+    
+}
+
+.column form {
+    text-align:left;
+    padding-left:25%
+}
+    
